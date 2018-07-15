@@ -17,5 +17,5 @@ loadWasm('square.wasm') // http://mbebenita.github.io/WasmExplorer/
     .then(instance => {
         square = instance.exports._Z6squarei;
         console.log(`square(5) = ${square(5)}`);
-        console.log('square(5) = ' + square(5));
+        // console.log('square(5) = ' + square(5));
     });
